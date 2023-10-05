@@ -86,7 +86,7 @@ In Comments.js:
 
 10. Now that you’ve taken care of passing the comments to the CommentList component, you need to make that component render the comments it receives.
 
-Inside the <ul> of the CommentList component’s return statement
+Inside the `<ul>` of the CommentList component’s return statement
 
 - Map over the comments prop and render a Comment (we’ve imported this component for you) for each value.
 - Each Comment component needs to be passed a comment prop.
