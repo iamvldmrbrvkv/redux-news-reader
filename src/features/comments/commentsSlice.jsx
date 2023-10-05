@@ -33,7 +33,7 @@ export const commentsSlice = createSlice({
     createCommentIsPending: false,
     failedToCreateComment: false
   },
-  // reducers: {},
+  reducers: {},
   // Add extraReducers here.
   extraReducers: (builder) => {
     builder
